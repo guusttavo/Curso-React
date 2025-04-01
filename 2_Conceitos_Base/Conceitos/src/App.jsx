@@ -9,6 +9,8 @@ import { MYComponent } from './components/MYComponent';
 // 4 - template expression
 import { TemplateExpression } from './components/TemplateExpression';
 
+// 6 - Eventos 
+import Events from './components/Events';
 function App() {
   // 3- comentários
   return <div className='App'>
@@ -17,6 +19,7 @@ function App() {
     <FirstComponent/>
     <TemplateExpression/>
     <MYComponent/>
+    <Events/>
   </div>;
 }
 
